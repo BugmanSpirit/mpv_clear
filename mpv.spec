@@ -142,7 +142,7 @@ export CXXFLAGS="$CXXFLAGS -O3 -Ofast -falign-functions=32 -ffat-lto-objects -fl
 
 meson --libdir=lib64 --prefix=/usr --buildtype=plain --auto-features=auto       \
   -Dcdda=disabled             \
-  -Dlibmpv=true              \
+  -Dlibmpv=true               \
   -Ddvbin=disabled            \
   -Ddvdnav=disabled           \
   -Dvulkan=enabled            \
