@@ -35,7 +35,7 @@ jobs:
       - name: Download artifact - ffmpeg
         uses: dawidd6/action-download-artifact@v2
         with:
-          repo: clearfraction/ffmpeg
+          repo: BugmanSpirit/ffmpeg
           workflow: build.yml
           check_artifacts: true          
       - name: Building a package
