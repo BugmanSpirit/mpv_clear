@@ -145,6 +145,7 @@ meson --libdir=lib64 --prefix=/usr --buildtype=plain --auto-features=auto       
   -Dlibmpv=true              \
   -Ddvbin=disabled            \
   -Ddvdnav=disabled           \
+  -Dvulkan=enabled            \
   -Dopenal=disabled builddir      
       
 ninja -v -C builddir
